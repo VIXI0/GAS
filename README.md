@@ -1,2 +1,0 @@
-# GAS
-GraphQl Api Server

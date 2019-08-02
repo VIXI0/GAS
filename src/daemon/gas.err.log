@@ -1,0 +1,750 @@
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:189:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:189:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\GAS\src\bmdb.js:20
+export.empty = function(mixedVar) {
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (D:\Repositories\GAS\src\cron.js:2:12)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:189:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at resolve (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:75:28)
+    at new Promise (<anonymous>)
+    at ApolloServer.<anonymous> (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:73:19)
+    at Generator.next (<anonymous>)
+    at D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:3:12)
+    at ApolloServer.listen (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:55:16)
+    at mongoose.connect.then (D:\Repositories\GAS\src\index.js:23:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Emitted 'error' event at:
+    at Server.emit (events.js:189:13)
+    at emitErrorNT (net.js:1297:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at resolve (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:75:28)
+    at new Promise (<anonymous>)
+    at ApolloServer.<anonymous> (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:73:19)
+    at Generator.next (<anonymous>)
+    at D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:3:12)
+    at ApolloServer.listen (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:55:16)
+    at mongoose.connect.then (D:\Repositories\GAS\src\index.js:23:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Emitted 'error' event at:
+    at Server.emit (events.js:189:13)
+    at emitErrorNT (net.js:1297:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at resolve (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:75:28)
+    at new Promise (<anonymous>)
+    at ApolloServer.<anonymous> (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:73:19)
+    at Generator.next (<anonymous>)
+    at D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:3:12)
+    at ApolloServer.listen (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:55:16)
+    at mongoose.connect.then (D:\Repositories\GAS\src\index.js:23:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Emitted 'error' event at:
+    at Server.emit (events.js:189:13)
+    at emitErrorNT (net.js:1297:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:189:13)
+    at process.exit (internal/process/per_thread.js:168:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+(node:4756) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:4756) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:4756) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4756) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:4756) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:4756) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:4756) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:6560) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:6560) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:6560) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6880) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:6880) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:6880) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:6880) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:6880) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at resolve (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:75:28)
+    at new Promise (<anonymous>)
+    at ApolloServer.<anonymous> (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:73:19)
+    at Generator.next (<anonymous>)
+    at D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:3:12)
+    at ApolloServer.listen (D:\Repositories\GAS\node_modules\apollo-server\dist\index.js:55:16)
+    at mongoose.connect.then (D:\Repositories\GAS\src\index.js:23:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Emitted 'error' event at:
+    at Server.emit (events.js:189:13)
+    at emitErrorNT (net.js:1297:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:1320) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:1320) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:1320) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1320) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:1320) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:6848) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at createHangUpError (_http_client.js:323:15)
+    at Socket.socketOnEnd (_http_client.js:426:23)
+    at Socket.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:6848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:6848) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:203:13)
+    at process.exit (internal/process/per_thread.js:158:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:203:13)
+    at process.exit (internal/process/per_thread.js:158:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:203:13)
+    at process.exit (internal/process/per_thread.js:158:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected Name, found :
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseName (D:\Repositories\GAS\node_modules\graphql\language\parser.js:98:15)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:870:14)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30) {
+  message: 'Syntax Error: Expected Name, found :',
+  locations: [ { line: 39, column: 9 } ]
+}
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:203:13)
+    at process.exit (internal/process/per_thread.js:158:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)

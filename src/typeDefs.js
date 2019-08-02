@@ -10,6 +10,11 @@ type Query {
   Suplidores: [Suplidor]!
   Productos: [Producto]!
   usuarios: [usuario]!
+  roles: [role]
+  getRole: role!
+  currentU: String!
+  marcas: [marca]!
+  backs: [back]!
   logout: String
 }
 
@@ -23,16 +28,19 @@ type Suplidor {
   Representante: String
   telefonor: [String]
   anotaciones: String
+  active: Boolean
 }
 
 type Producto {
   _id: ID
   nombre: String!
+  marca: String
   descripcion: String
   location: String
   cantidad: Float
   unidad: String!
   Suplidor_primario: String
+  active: Boolean
 }
 
 
@@ -41,19 +49,100 @@ type usuario {
   _id: ID
   user: String
   password: String
+  active: Boolean
+  role: ID
 }
 
+type role {
+  nombre: String
+  permisos: [sistema]
+}
+
+type sistema {
+  sistema: String
+  link: String
+  menu: [menu]
+}
+
+type menu {
+  titulo: String
+  menu: Boolean
+  sub: [sub]
+}
+
+type sub {
+  tipo: String
+  titulo: String
+  link: String
+  href: String
+  target: String
+  c: Boolean
+  r: Boolean
+  u: Boolean
+  d: Boolean
+  a: Boolean
+  sub: [sub2]
+}
+
+type sub2 {
+  tipo: String
+  titulo: String
+  link: String
+  href: String
+  target: String
+  c: Boolean
+  r: Boolean
+  u: Boolean
+  d: Boolean
+  a: Boolean
+  sub: [sub3]
+}
+
+type sub3 {
+  tipo: String
+  titulo: String
+  link: String
+  href: String
+  target: String
+  c: Boolean
+  r: Boolean
+  u: Boolean
+  d: Boolean
+  a: Boolean
+}
+
+type marca {
+  _id: ID
+  nombre: String!
+  active: Boolean
+}
+
+type back {
+  _id: ID
+  user: String
+  date: String
+  location: String
+}
   type Mutation {
 
 
     createUser(input: UsuarioInput): Boolean
     login(input: UsuarioInput): String
 
+    createRole(input: RoleInput): Boolean
+    updateRole(_id: ID, input: RoleInput): Boolean
+
+
     createSuplidor(input: SuplidorInput): Boolean
     updateSuplidor(_id: ID, input: SuplidorInput): Boolean
 
     createProducto(input: ProductoInput): Boolean
     updateProducto(_id: ID, input: ProductoInput): Boolean
+
+    createMarca(input: marcaInput): Boolean
+    updateMarca(_id: ID, input: marcaInput): Boolean
+
+    createBack(input: backInput): Boolean
   }
 
 
@@ -61,6 +150,67 @@ type usuario {
     user: String!
     password: String!
     createdAt: String
+    active: Boolean
+    role: ID
+  }
+
+  input RoleInput {
+    nombre: String
+    permisos: [sistemaM]
+  }
+
+
+  input sistemaM {
+    sistema: String
+    link: String
+    menu: [menuM]
+  }
+
+  input menuM {
+    titulo: String
+    menu: Boolean
+    sub: [subM]
+  }
+
+  input subM {
+    tipo: String
+    titulo: String
+    link: String
+    href: String
+    target: String
+    c: Boolean
+    r: Boolean
+    u: Boolean
+    d: Boolean
+    a: Boolean
+    sub: [sub2M]
+  }
+
+  input sub2M {
+    tipo: String
+    titulo: String
+    link: String
+    href: String
+    target: String
+    c: Boolean
+    r: Boolean
+    u: Boolean
+    d: Boolean
+    a: Boolean
+    sub: [sub3M]
+  }
+
+  input sub3M {
+    tipo: String
+    titulo: String
+    link: String
+    href: String
+    target: String
+    c: Boolean
+    r: Boolean
+    u: Boolean
+    d: Boolean
+    a: Boolean
   }
 
   input SuplidorInput {
@@ -69,17 +219,30 @@ type usuario {
     telefono: [String]
     rnc: String
     ncf: String
-    Representante: String
+    Representante: String!
     telefonor: [String]
     anotaciones: String
+    active: Boolean
   }
 
   input ProductoInput {
     nombre: String!
+    marca: String
     descripcion: String
     location: String
     cantidad: Float
     unidad: String!
     Suplidor_primario: String
+    active: Boolean
+  }
+
+  input marcaInput {
+    nombre: String!
+    active: Boolean
+  }
+
+  input backInput {
+    user: String
+    location: String
   }
 `;

@@ -1,5 +1,5 @@
 //importacion modelos
-const {SuplidorMM, ProductoMM, UsuarioMM } = require('./mdbe.js')
+const {SuplidorMM, ProductoMM, UsuarioMM, MarcaMM, CrudMM, BackMM, RoleMM } = require('./mdbe.js')
 
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
@@ -8,6 +8,7 @@ const {UserInputError} = require('apollo-server')
 const checkAuth = require('../util/check-auth');
 const {SECRET_KEY} = require('../config')
 
+var Cron = require('./bmdb.js');
 //resolvedor de eschemas
 module.exports = {
 
@@ -22,6 +23,21 @@ module.exports = {
     async usuarios(_,{req}, context) {
       checkAuth(context)
       return await UsuarioMM.find()
+    },
+
+    async roles(_,{req}, context) {
+      checkAuth(context)
+      return await RoleMM.find()
+    },
+
+    async getRole(_,{req}, context) {
+      const auth = checkAuth(context)
+      return await RoleMM.findOne({_id: auth.role})
+    },
+
+    async currentU(_,{req}, context){
+      const auth = checkAuth(context)
+      return auth.user
     },
 
     //cerrar session
@@ -45,9 +61,19 @@ module.exports = {
     async Productos(_,{req}, context) {
       checkAuth(context)
       return await ProductoMM.find()
+    },
+
+    //Marcas
+    async marcas(_,{req}, context) {
+      checkAuth(context)
+      return await MarcaMM.find()
+    },
+
+    //Backups
+    async backs(_,{req}, context) {
+      checkAuth(context)
+      return await BackMM.find()
     }
-
-
   },
 
 
@@ -60,15 +86,19 @@ module.exports = {
       const look = input.user
       const user = await UsuarioMM.findOne({user: look})
       if(!user){
-        return "usuario no existente"
+        return "Usuario no existente"
+      }
+      if(!user.active){
+        return "Usuario inactivo"
       }
       const match = await bcrypt.compare(input.password,user.password)
       if(!match){
-        return "contraseña incorrecta"
+        return "Contraseña incorrecta"
       }
       const token = jwt.sign({
         id: user.id,
-        user: user.user
+        user: user.user,
+        role: user.role
       }, SECRET_KEY, {expiresIn: '24h'})
 
       return token
@@ -87,6 +117,8 @@ module.exports = {
             }
           })
         }
+
+
         input.password = await bcrypt.hash(input.password,12)
         input.createdAt = new Date().toISOString()
         const newUser = new UsuarioMM(input)
@@ -107,6 +139,47 @@ module.exports = {
 
     },
 
+    //roles
+    async createRole(_, {input},context){
+      const auth = checkAuth(context)
+      try {
+        const look = input.nombre
+        const role = await RoleMM.findOne({nombre: look})
+        if (role){
+          throw new UserInputError("El nombre role ya existe", {
+            errors: {
+              username: "this role name is used"
+            }
+          })
+        }
+
+
+        const newRole = new RoleMM(input)
+        const res = await newRole.save()
+
+
+        return true
+
+      } catch (e) {
+
+        return false
+
+      }
+
+    },
+
+    async updateRole(_, {_id, input},context){
+        const auth = checkAuth(context)
+      try {
+        await RoleMM.findByIdAndUpdate(_id,input, {new: true, useFindAndModify: false})
+        return true
+      } catch (e) {
+        return false
+      } finally {
+
+      }
+    },
+
     //suplidor
     async createSuplidor(_, {input},context) {
       const auth = checkAuth(context)
@@ -119,7 +192,6 @@ module.exports = {
         return true
 
       } catch (e) {
-
         return false
 
       } finally {
@@ -169,8 +241,56 @@ module.exports = {
       } finally {
 
       }
+    },
+
+    //marcas
+    async createMarca(_, {input},context) {
+        const auth = checkAuth(context)
+      try {
+
+        const newMarca = new MarcaMM(input)
+        await newMarca.save()
+        return true
+
+      } catch (e) {
+
+        return false
+
+      } finally {
+
+      }
+
+    },
+
+    async updateMarca(_, {_id, input},context){
+        const auth = checkAuth(context)
+      try {
+        await MarcaMM.findByIdAndUpdate(_id,input, {new: true, useFindAndModify: false})
+        return true
+      } catch (e) {
+        return false
+      } finally {
+
+      }
+    },
+
+    //backup
+    async createBack(_,{input},context){
+      const auth = checkAuth(context)
+      const DBA = await Cron.dbAutoBackUp(input.user,input.location);
+      if (auth.user == "System") {
+        input.location = "default"
+      }
+      if (DBA) {
+        const obj = {
+          user: auth.user,
+          date: new Date().toISOString(),
+          location: input.location
+        }
+        const newBack = new BackMM(obj)
+        await newBack.save()
+      }
+      return DBA
     }
-
-
   }
 };

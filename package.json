@@ -5,15 +5,22 @@
   "repository": "https://github.com/VIXI0/GAS",
   "author": "VIXI0 <mickycanela@gmail.com>",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "pack": "pkg --help"
   },
   "license": "MIT",
   "dependencies": {
     "apollo-server": "^2.6.3",
+    "axios": "^0.19.0",
     "bcryptjs": "^2.4.3",
+    "console-read-write": "^0.1.1",
+    "cron": "^1.7.1",
     "graphql": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "pkg": "^4.4.0",
+    "readline-sync": "^1.4.9",
+    "systray": "^1.0.5"
   }
 }

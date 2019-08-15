@@ -8,6 +8,7 @@ type Query {
 
 
   Suplidores: [Suplidor]!
+  SuplidoresAll: [Suplidor]!
   Productos: [Producto]!
   usuarios: [usuario]!
   roles: [role]
@@ -54,6 +55,7 @@ type usuario {
 }
 
 type role {
+  _id: ID
   nombre: String
   permisos: [sistema]
 }
@@ -214,12 +216,12 @@ type back {
   }
 
   input SuplidorInput {
-    nombre: String!
+    nombre: String
     direccion: String
     telefono: [String]
     rnc: String
     ncf: String
-    Representante: String!
+    Representante: String
     telefonor: [String]
     anotaciones: String
     active: Boolean

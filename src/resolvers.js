@@ -56,6 +56,10 @@ module.exports = {
       return await SuplidorMM.find()
     },
 
+    async SuplidoresAll(_,{req}, context) {
+      checkAuth(context)
+      return await SuplidorMM.find()
+    },
 
     //Producto
     async Productos(_,{req}, context) {

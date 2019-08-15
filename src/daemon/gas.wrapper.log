@@ -557,3 +557,211 @@ Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2019-08-01 18:34:30 - Send SIGINT 12220
 2019-08-01 18:34:30 - SIGINT to 12220 failed - Killing as fallback
 2019-08-01 18:34:30 - Finished gas.exe
+2019-08-03 08:32:15 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-03 08:32:16 - Started 5628
+2019-08-03 11:03:53 - Stopping gas.exe
+2019-08-03 11:03:53 - ProcessKill 5628
+2019-08-03 11:03:54 - Found child process: 5744 Name: conhost.exe
+2019-08-03 11:03:54 - Found child process: 7044 Name: node.exe
+2019-08-03 11:03:55 - Stopping process 5744
+2019-08-03 11:03:55 - Send SIGINT 5744
+2019-08-03 11:03:55 - SIGINT to 5744 failed - Killing as fallback
+2019-08-03 11:03:55 - Stopping process 7044
+2019-08-03 11:03:55 - Send SIGINT 7044
+2019-08-03 11:03:55 - SIGINT to 7044 failed - Killing as fallback
+2019-08-03 11:03:55 - Stopping process 5628
+2019-08-03 11:03:55 - Send SIGINT 5628
+2019-08-03 11:03:55 - SIGINT to 5628 failed - Killing as fallback
+2019-08-03 11:03:55 - Finished gas.exe
+2019-08-03 11:04:02 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-03 11:04:05 - Started 13812
+2019-08-03 11:04:09 - Stopping gas.exe
+2019-08-03 11:04:09 - ProcessKill 13812
+2019-08-03 11:04:10 - Found child process: 9272 Name: conhost.exe
+2019-08-03 11:04:10 - Found child process: 2444 Name: node.exe
+2019-08-03 11:04:11 - Stopping process 9272
+2019-08-03 11:04:11 - Send SIGINT 9272
+2019-08-03 11:04:11 - SIGINT to 9272 failed - Killing as fallback
+2019-08-03 11:04:11 - Stopping process 2444
+2019-08-03 11:04:11 - Send SIGINT 2444
+2019-08-03 11:04:11 - SIGINT to 2444 failed - Killing as fallback
+2019-08-03 11:04:11 - Stopping process 13812
+2019-08-03 11:04:11 - Send SIGINT 13812
+2019-08-03 11:04:12 - SIGINT to 13812 failed - Killing as fallback
+2019-08-03 11:04:12 - Finished gas.exe
+2019-08-03 17:47:56 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-03 17:47:57 - Started 15736
+2019-08-04 00:03:10 - Stopping gas.exe
+2019-08-04 00:03:10 - ProcessKill 15736
+2019-08-04 00:03:11 - Found child process: 11788 Name: conhost.exe
+2019-08-04 00:03:11 - Found child process: 13112 Name: node.exe
+2019-08-04 00:03:11 - Stopping process 11788
+2019-08-04 00:03:11 - Send SIGINT 11788
+2019-08-04 00:03:11 - SIGINT to 11788 failed - Killing as fallback
+2019-08-04 00:03:11 - Stopping process 13112
+2019-08-04 00:03:12 - Send SIGINT 13112
+2019-08-04 00:03:12 - SIGINT to 13112 failed - Killing as fallback
+2019-08-04 00:03:12 - Stopping process 15736
+2019-08-04 00:03:12 - Send SIGINT 15736
+2019-08-04 00:03:12 - SIGINT to 15736 failed - Killing as fallback
+2019-08-04 00:03:12 - Finished gas.exe
+2019-08-04 00:03:13 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-04 00:03:13 - Started 8860
+2019-08-04 12:30:49 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-04 12:30:58 - Started 5204
+2019-08-04 20:53:27 - Stopping gas.exe
+2019-08-04 20:53:27 - ProcessKill 5204
+2019-08-04 20:53:28 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-04 20:54:09 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-04 20:54:10 - Started 5628
+2019-08-05 11:49:00 - Stopping gas.exe
+2019-08-05 11:49:00 - ProcessKill 5628
+2019-08-05 11:49:02 - Found child process: 5968 Name: conhost.exe
+2019-08-05 11:49:02 - Found child process: 6904 Name: node.exe
+2019-08-05 11:49:02 - Stopping process 5968
+2019-08-05 11:49:02 - Send SIGINT 5968
+2019-08-05 11:49:02 - SIGINT to 5968 failed - Killing as fallback
+2019-08-05 11:49:02 - Stopping process 6904
+2019-08-05 11:49:03 - Send SIGINT 6904
+2019-08-05 11:49:03 - SIGINT to 6904 failed - Killing as fallback
+2019-08-05 11:49:03 - Stopping process 5628
+2019-08-05 11:49:03 - Send SIGINT 5628
+2019-08-05 11:49:03 - SIGINT to 5628 failed - Killing as fallback
+2019-08-05 11:49:03 - Finished gas.exe
+2019-08-05 11:49:04 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-05 11:49:04 - Started 11408
+2019-08-05 12:02:38 - Stopping gas.exe
+2019-08-05 12:02:38 - ProcessKill 11408
+2019-08-05 12:02:39 - Found child process: 14396 Name: conhost.exe
+2019-08-05 12:02:39 - Found child process: 10024 Name: node.exe
+2019-08-05 12:02:39 - Stopping process 14396
+2019-08-05 12:02:39 - Send SIGINT 14396
+2019-08-05 12:02:39 - SIGINT to 14396 failed - Killing as fallback
+2019-08-05 12:02:40 - Stopping process 10024
+2019-08-05 12:02:40 - Send SIGINT 10024
+2019-08-05 12:02:40 - SIGINT to 10024 failed - Killing as fallback
+2019-08-05 12:02:40 - Stopping process 11408
+2019-08-05 12:02:40 - Send SIGINT 11408
+2019-08-05 12:02:40 - SIGINT to 11408 failed - Killing as fallback
+2019-08-05 12:02:40 - Finished gas.exe
+2019-08-05 12:02:41 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-05 12:02:41 - Started 2292
+2019-08-05 20:16:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-05 20:16:47 - Started 5420
+2019-08-06 17:17:01 - Stopping gas.exe
+2019-08-06 17:17:01 - ProcessKill 5420
+2019-08-06 17:17:02 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-06 17:17:38 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:17:38 - Started 5376
+2019-08-06 17:31:57 - Stopping gas.exe
+2019-08-06 17:31:57 - ProcessKill 5376
+2019-08-06 17:31:58 - Found child process: 5464 Name: conhost.exe
+2019-08-06 17:31:58 - Found child process: 6736 Name: node.exe
+2019-08-06 17:31:58 - Stopping process 5464
+2019-08-06 17:31:58 - Send SIGINT 5464
+2019-08-06 17:31:58 - SIGINT to 5464 failed - Killing as fallback
+2019-08-06 17:31:59 - Stopping process 6736
+2019-08-06 17:31:59 - Send SIGINT 6736
+2019-08-06 17:31:59 - SIGINT to 6736 failed - Killing as fallback
+2019-08-06 17:31:59 - Stopping process 5376
+2019-08-06 17:31:59 - Send SIGINT 5376
+2019-08-06 17:31:59 - SIGINT to 5376 failed - Killing as fallback
+2019-08-06 17:31:59 - Finished gas.exe
+2019-08-06 17:32:00 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:32:00 - Started 5920
+2019-08-06 17:32:39 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:32:39 - Started 12240
+2019-08-06 17:32:44 - Stopping gas.exe
+2019-08-06 17:32:44 - ProcessKill 12240
+2019-08-06 17:32:44 - Found child process: 12260 Name: conhost.exe
+2019-08-06 17:32:44 - Found child process: 11696 Name: node.exe
+2019-08-06 17:32:44 - Stopping process 12260
+2019-08-06 17:32:45 - Send SIGINT 12260
+2019-08-06 17:32:45 - SIGINT to 12260 failed - Killing as fallback
+2019-08-06 17:32:45 - Stopping process 11696
+2019-08-06 17:32:45 - Send SIGINT 11696
+2019-08-06 17:32:45 - SIGINT to 11696 failed - Killing as fallback
+2019-08-06 17:32:45 - Stopping process 12240
+2019-08-06 17:32:45 - Send SIGINT 12240
+2019-08-06 17:32:45 - SIGINT to 12240 failed - Killing as fallback
+2019-08-06 17:32:45 - Finished gas.exe
+2019-08-06 17:32:46 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:32:46 - Started 1320
+2019-08-06 17:32:58 - Stopping gas.exe
+2019-08-06 17:32:58 - ProcessKill 1320
+2019-08-06 17:32:58 - Found child process: 1328 Name: conhost.exe
+2019-08-06 17:32:58 - Stopping process 1328
+2019-08-06 17:32:59 - Send SIGINT 1328
+2019-08-06 17:32:59 - SIGINT to 1328 failed - Killing as fallback
+2019-08-06 17:32:59 - Stopping process 1320
+2019-08-06 17:32:59 - Send SIGINT 1320
+2019-08-06 17:32:59 - SIGINT to 1320 failed - Killing as fallback
+2019-08-06 17:32:59 - Finished gas.exe
+2019-08-06 17:33:00 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:33:00 - Started 11920
+2019-08-06 17:33:04 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:33:04 - Started 12084
+2019-08-06 17:33:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 17:33:47 - Started 7956
+2019-08-06 18:14:40 - Stopping gas.exe
+2019-08-06 18:14:40 - ProcessKill 7956
+2019-08-06 18:14:40 - Found child process: 2888 Name: conhost.exe
+2019-08-06 18:14:40 - Found child process: 9116 Name: node.exe
+2019-08-06 18:14:41 - Stopping process 2888
+2019-08-06 18:14:41 - Send SIGINT 2888
+2019-08-06 18:14:41 - SIGINT to 2888 failed - Killing as fallback
+2019-08-06 18:14:41 - Stopping process 9116
+2019-08-06 18:14:41 - Send SIGINT 9116
+2019-08-06 18:14:41 - SIGINT to 9116 failed - Killing as fallback
+2019-08-06 18:14:41 - Stopping process 7956
+2019-08-06 18:14:41 - Send SIGINT 7956
+2019-08-06 18:14:41 - SIGINT to 7956 failed - Killing as fallback
+2019-08-06 18:14:41 - Finished gas.exe
+2019-08-06 18:14:41 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-06 18:14:42 - Started 13384
+2019-08-10 00:19:17 - Stopping gas.exe
+2019-08-10 00:19:17 - ProcessKill 13384
+2019-08-10 00:19:18 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2019-08-10 00:19:52 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-10 00:19:52 - Started 5836
+2019-08-12 11:55:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-12 11:55:19 - Started 5464
+2019-08-13 17:35:32 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-13 17:35:32 - Started 5580
+2019-08-14 18:27:11 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-14 18:27:11 - Started 5384
+2019-08-15 16:48:23 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js --file D:\Repositories\GAS\src\index.js --log "GAS wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-08-15 16:48:23 - Started 5372

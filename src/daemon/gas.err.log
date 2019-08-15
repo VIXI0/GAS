@@ -748,3 +748,167 @@ TypeError: Cannot read property 'send' of null
     at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
     at ChildProcess.emit (events.js:203:13)
     at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+(node:6904) UnhandledPromiseRejectionWarning: Error: socket hang up
+    at connResetException (internal/errors.js:559:14)
+    at Socket.socketOnEnd (_http_client.js:436:23)
+    at Socket.emit (events.js:208:15)
+    at endReadableNT (_stream_readable.js:1154:12)
+    at processTicksAndRejections (internal/process/task_queues.js:77:11)
+(node:6904) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:6904) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}
+D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (events.js:203:13)
+    at process.exit (internal/process/per_thread.js:158:15)
+    at monitor (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (D:\Repositories\popo\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (events.js:203:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12)
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}
+
+D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433
+  throw (0, _error.syntaxError)(lexer.source, token.start, "Expected ".concat(kind, ", found ").concat((0, _lexer.getTokenDesc)(token)));
+  ^
+GraphQLError: Syntax Error: Expected :, found [
+    at syntaxError (D:\Repositories\GAS\node_modules\graphql\error\syntaxError.js:24:10)
+    at expectToken (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1433:32)
+    at parseFieldDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:872:3)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1524:16)
+    at parseFieldsDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:859:50)
+    at parseObjectTypeDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:813:16)
+    at parseTypeSystemDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:711:16)
+    at parseDefinition (D:\Repositories\GAS\node_modules\graphql\language\parser.js:144:16)
+    at many (D:\Repositories\GAS\node_modules\graphql\language\parser.js:1521:16)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql\language\parser.js:115:18)
+    at parse (D:\Repositories\GAS\node_modules\graphql\language\parser.js:50:10)
+    at parseDocument (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:135:16)
+    at gql (D:\Repositories\GAS\node_modules\graphql-tag\lib\graphql-tag.umd.js:176:10)
+    at Object.<anonymous> (D:\Repositories\GAS\src\typeDefs.js:3:21)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10) {
+  message: 'Syntax Error: Expected :, found [',
+  locations: [ { line: 9, column: 17 } ]
+}

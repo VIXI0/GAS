@@ -228,7 +228,7 @@ type back {
   }
 
   input ProductoInput {
-    nombre: String!
+    nombre: String
     marca: String
     descripcion: String
     location: String
@@ -239,7 +239,7 @@ type back {
   }
 
   input marcaInput {
-    nombre: String!
+    nombre: String
     active: Boolean
   }
 

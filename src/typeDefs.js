@@ -36,6 +36,7 @@ type Producto {
   _id: ID
   nombre: String!
   marca: String
+  image: String
   descripcion: String
   location: String
   cantidad: Float
@@ -145,6 +146,8 @@ type back {
     updateMarca(_id: ID, input: marcaInput): Boolean
 
     createBack(input: backInput): Boolean
+
+    uploadImage(image: Upload!): Boolean
   }
 
 

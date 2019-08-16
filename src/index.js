@@ -5,6 +5,8 @@ const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
 global.CronJob = require('./cron.js');
 
+const path = require("path");
+const { existsSync, mkdirSync } = require("fs");
 
 const server = new ApolloServer({
   typeDefs,
@@ -13,6 +15,7 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req })
 });
 
+existsSync(path.join(__dirname, "../images")) || mkdirSync(path.join(__dirname, "../images"));
 
   mongoose
     .connect(MongoDB, {

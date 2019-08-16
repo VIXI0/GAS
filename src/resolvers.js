@@ -8,6 +8,9 @@ const {UserInputError} = require('apollo-server')
 const checkAuth = require('../util/check-auth');
 const {SECRET_KEY} = require('../config')
 
+const path = require("path");
+const { createWriteStream} = require("fs");
+
 var Cron = require('./bmdb.js');
 //resolvedor de eschemas
 module.exports = {
@@ -295,6 +298,20 @@ module.exports = {
         await newBack.save()
       }
       return DBA
-    }
+    },
+
+    async uploadImage(_, { image },context){
+
+        const { createReadStream, filename } = await image;
+
+        await new Promise( res =>
+          createReadStream()
+            .pipe(createWriteStream(path.join(__dirname, "../images", filename)))
+            .on("close", res)
+        );
+
+        return true;
+}
+
   }
 };

@@ -1,9 +1,11 @@
-const { ApolloServer } = require('apollo-server');
+const { ApolloServer } = require('apollo-server-express');
 const mongoose = require('mongoose');
 const { MongoDB } = require('../config.js')
 const typeDefs = require('./typeDefs');
 const resolvers = require('./resolvers');
 global.CronJob = require('./cron.js');
+
+const express = require("express");
 
 const path = require("path");
 const { existsSync, mkdirSync } = require("fs");
@@ -17,6 +19,10 @@ const server = new ApolloServer({
 
 existsSync(path.join(__dirname, "../images")) || mkdirSync(path.join(__dirname, "../images"));
 
+const app = express();
+app.use("/images", express.static(path.join(__dirname, "../images")));
+server.applyMiddleware({ app, path: '/' });
+
   mongoose
     .connect(MongoDB, {
       useNewUrlParser: true,
@@ -24,7 +30,7 @@ existsSync(path.join(__dirname, "../images")) || mkdirSync(path.join(__dirname, 
       reconnectInterval: 500 })
     .then(() => {
       console.log('MongoDB Connected');
-      return server.listen({ port: 4000 });
+      return app.listen({ port: 4000 });
     })
     .then((res) => {
       console.log(`Server running at ${res.url}`);

@@ -56,7 +56,7 @@ module.exports = {
     //Suplidor
     async Suplidores(_,{req}, context) {
       checkAuth(context)
-      return await SuplidorMM.find()
+      return await SuplidorMM.find({active: true})
     },
 
     async SuplidoresAll(_,{req}, context) {
@@ -67,11 +67,21 @@ module.exports = {
     //Producto
     async Productos(_,{req}, context) {
       checkAuth(context)
+      return await ProductoMM.find({active: true})
+    },
+
+    async ProductosAll(_,{req}, context) {
+      checkAuth(context)
       return await ProductoMM.find()
     },
 
     //Marcas
     async marcas(_,{req}, context) {
+      checkAuth(context)
+      return await MarcaMM.find({active: true})
+    },
+
+    async marcasAll(_,{req}, context) {
       checkAuth(context)
       return await MarcaMM.find()
     },
@@ -196,10 +206,19 @@ module.exports = {
 
         const newSuplidor = new SuplidorMM(input)
         await newSuplidor.save()
-        return true
+        const obj = {
+          _id: newSuplidor._id,
+          done: true
+        }
+        return obj
 
       } catch (e) {
-        return false
+
+        const obj = {
+          _id: '',
+          done: false
+        }
+        return obj
 
       } finally {
 
@@ -226,11 +245,19 @@ module.exports = {
 
         const newProducto = new ProductoMM(input)
         await newProducto.save()
-        return true
+        const obj = {
+          _id: newProducto._id,
+          done: true
+        }
+        return obj
 
       } catch (e) {
 
-        return false
+        const obj = {
+          _id: '',
+          done: false
+        }
+        return obj
 
       } finally {
 
@@ -257,11 +284,19 @@ module.exports = {
 
         const newMarca = new MarcaMM(input)
         await newMarca.save()
-        return true
+        const obj = {
+          _id: newMarca._id,
+          done: true
+        }
+        return obj
 
       } catch (e) {
 
-        return false
+        const obj = {
+          _id: '',
+          done: false
+        }
+        return obj
 
       } finally {
 
@@ -309,7 +344,6 @@ module.exports = {
             .pipe(createWriteStream(path.join(__dirname, "../images", filename)))
             .on("close", res)
         );
-
         return true;
 }
 

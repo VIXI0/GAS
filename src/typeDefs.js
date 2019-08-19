@@ -10,11 +10,13 @@ type Query {
   Suplidores: [Suplidor]!
   SuplidoresAll: [Suplidor]!
   Productos: [Producto]!
+  ProductosAll: [Producto]!
+  marcas: [marca]!
+  marcasAll: [marca]!
   usuarios: [usuario]!
   roles: [role]
   getRole: role!
   currentU: String!
-  marcas: [marca]!
   backs: [back]!
   logout: String
 }
@@ -126,6 +128,11 @@ type back {
   date: String
   location: String
 }
+
+type createAnswer {
+  _id: ID
+  done: Boolean
+}
   type Mutation {
 
 
@@ -136,13 +143,13 @@ type back {
     updateRole(_id: ID, input: RoleInput): Boolean
 
 
-    createSuplidor(input: SuplidorInput): Boolean
+    createSuplidor(input: SuplidorInput): createAnswer
     updateSuplidor(_id: ID, input: SuplidorInput): Boolean
 
-    createProducto(input: ProductoInput): Boolean
+    createProducto(input: ProductoInput): createAnswer
     updateProducto(_id: ID, input: ProductoInput): Boolean
 
-    createMarca(input: marcaInput): Boolean
+    createMarca(input: marcaInput): createAnswer
     updateMarca(_id: ID, input: marcaInput): Boolean
 
     createBack(input: backInput): Boolean
@@ -233,10 +240,11 @@ type back {
   input ProductoInput {
     nombre: String
     marca: String
+    image: String
     descripcion: String
     location: String
     cantidad: Float
-    unidad: String!
+    unidad: String
     Suplidor_primario: String
     active: Boolean
   }

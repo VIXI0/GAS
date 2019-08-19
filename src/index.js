@@ -21,6 +21,14 @@ existsSync(path.join(__dirname, "../images")) || mkdirSync(path.join(__dirname, 
 
 const app = express();
 app.use("/images", express.static(path.join(__dirname, "../images")));
+
+
+
+//The 404 Route (ALWAYS Keep this as the last route)
+app.get('/images/*', function(req, res){
+  res.status(404).sendFile(path.join(__dirname, "../images/forest-art.jpg"));
+});
+
 server.applyMiddleware({ app, path: '/' });
 
   mongoose

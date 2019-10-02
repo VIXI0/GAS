@@ -16,6 +16,7 @@ const suplidorMS = new Schema({
 const productoMS =new Schema({
   nombre: {type: String, required: true},
   marca: Schema.Types.ObjectId,
+  ref: String,
   image: String,
   descripcion: String,
   location: String,

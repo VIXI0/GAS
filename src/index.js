@@ -17,10 +17,10 @@ const server = new ApolloServer({
   context: ({ req }) => ({ req })
 });
 
-existsSync(path.join(__dirname, "../images")) || mkdirSync(path.join(__dirname, "../images"));
+existsSync("C:\\GAS\\images") || mkdirSync(path.join("C:\\GAS\\images"));
 
 const app = express();
-app.use("/images", express.static(path.join(__dirname, "../images")));
+app.use("/images", express.static("C:\\GAS\\images"));
 
 
 

@@ -36,13 +36,14 @@ type Suplidor {
 
 type Producto {
   _id: ID
-  nombre: String!
+  nombre: String
   marca: String
+  ref: String
   image: String
   descripcion: String
   location: String
   cantidad: Float
-  unidad: String!
+  unidad: String
   Suplidor_primario: String
   active: Boolean
 }
@@ -148,6 +149,7 @@ type createAnswer {
 
     createProducto(input: ProductoInput): createAnswer
     updateProducto(_id: ID, input: ProductoInput): Boolean
+    getProductoRef(ref: String): Producto
 
     createMarca(input: marcaInput): createAnswer
     updateMarca(_id: ID, input: marcaInput): Boolean
@@ -240,6 +242,7 @@ type createAnswer {
   input ProductoInput {
     nombre: String
     marca: String
+    ref: String
     image: String
     descripcion: String
     location: String

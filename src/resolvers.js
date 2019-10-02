@@ -3,10 +3,11 @@ const {SuplidorMM, ProductoMM, UsuarioMM, MarcaMM, CrudMM, BackMM, RoleMM } = re
 
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
-const {UserInputError} = require('apollo-server')
 
 const checkAuth = require('../util/check-auth');
-const {SECRET_KEY} = require('../config')
+const {SECRET_KEY} = require('../config');
+
+const { UserInputError } = require('apollo-server-express');
 
 const path = require("path");
 const { createWriteStream} = require("fs");
@@ -244,6 +245,9 @@ module.exports = {
       try {
 
         const newProducto = new ProductoMM(input)
+        if (input.ref === ''){
+          newProducto.ref = newProducto._id
+        }
         await newProducto.save()
         const obj = {
           _id: newProducto._id,
@@ -275,6 +279,18 @@ module.exports = {
       } finally {
 
       }
+    },
+
+    async getProductoRef(_,{ ref }, context){
+        const auth = checkAuth(context)
+        const producto = await ProductoMM.findOne({ref: ref})
+        if (producto) {
+          return producto
+        } else {
+          throw new UserInputError('Not Found', {
+          invalidArgs: ref,
+        });
+        }
     },
 
     //marcas
@@ -341,7 +357,7 @@ module.exports = {
 
         await new Promise( res =>
           createReadStream()
-            .pipe(createWriteStream(path.join(__dirname, "../images", filename)))
+            .pipe(createWriteStream(path.join("C:\\GAS\\images", filename)))
             .on("close", res)
         );
         return true;
